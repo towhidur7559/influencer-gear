@@ -150,23 +150,32 @@ nav{
 span{
     padding-left: 10px;
 }
-
+.register{
+   background-color:#E02C6D;
+   color: white;
+   border-radius: 10px;
+   padding-top: 25px;
+   padding-bottom: 15px;
+   margin-bottom: 200px;     
+}
 .footer{
     position:fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
     height: auto;
-    width: 100vw;
+    width: 900px;
     padding-top: 40px;
     color: white;    
 }
 .footer-content{
-    display: flex;
+    display:flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-color:#0A0826;
+    color: white;
+    width: 100%;
 }
 .footer-content h3{
     font-size: 1.8rem;
@@ -179,7 +188,6 @@ span{
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-
 }
 .socials{
     list-style: none;
@@ -205,16 +213,4 @@ span{
 .socials a:hover{
     color: aqua;
 }
-.footer-bottom{
-    background: black;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-.footer-bottom p{
-    font-size: 14px;
-}
-.footer-bottom span{
-    font-weight: 200;
-    opacity: .4;
-}
+

@@ -177,23 +177,80 @@
                     </div>
                 </div>
             </div>
+            <section class="container register">
+                <h1>Register:</h1>
+                <form action="">
+                    <label for="first">First Name:</label>
+                    <input name="first" id="first" type="text" placeholder="Enter your name" required>
+                    <label for="last">Last Name:</label>
+                    <input name="last" id="last" type="text" placeholder="Enter your last name" required>
+                    <div>
+                      <label for="male">Male</label>
+                        <input id="male" name="gender" value="male" type="radio">
+                        <label for="female">Female</label>
+                        <input id="female" name="gender" value="female" type="radio">
+                        <label for="other">Other</label>
+                        <input id="other" name="gender" value="other" type="radio">
+                    </div>
+                    <div>
+                        <label for="">
+                            Email:
+                            <input name="email" type="email" placeholder="your email" required>
+                        </label>
+                        <label for="">
+                            Password:
+                            <input name="password" type="password" placeholder="your password" pattern=".{0}|.{5,10}" required title="Either 0 OR (5 to 10 chars)">
+                            
+                        </label>
+                    </div>   
+                    <div>
+                      <label>
+                          Birthday:
+                          <select name="month" id="">
+                              <option value="">Month</option>
+                              <option value="">Jan</option>
+                              <option value="">Fab</option>
+                              <option value="">Mar</option>
+                          </select>
+
+                          <select name="day" id="">
+                              <option value="">Day</option>
+                              <option value="">10</option>
+                              <option value="">11</option>
+                              <option value="">12</option>
+                          </select>
+                          <select name="year" id="">
+                              <option value="">Year</option>
+                              <option value="">1999</option>
+                              <option value="">2000</option>
+                              <option value="">2001</option>
+                          </select>
+                      </label>
+                    </div>                     
+                    <div>
+                        <label for="agreed">I agreed to the terms and condition</label>
+                        <input id="agreed" name="agreed" type="checkbox">
+                    </div>
+                    <input type="submit">
+                </form>
+            </section>
+            <footer>
+                    <div class="footer-content">
+                        <h3>Influencer products</h3>
+                        <p>Copyright © 2020  influencer products</p>
+                        <span>All rights reserved</span>
+                        <ul class="socials">
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fas fa-globe-americas"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </footer>
         </header>      
         </section> 
-        <footer>
-            <div class="footer-content">
-                <h3>Code opacity</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, dolor.</p>
-                <ul class="socials">
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fas fa-globe-americas"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-            <div class="footer-bottom">
-                <p>copyright</p>
-            </div>
-        </footer>
+       
+        
      
 </body>
 </html>
